@@ -4,7 +4,7 @@ The first markdown (`.md`) file in your `src/` folder should contain a metadata 
 
 ```yaml
 ---
-    TFLNummer: 1
+    header-title: Transferleistung 1
     title: Optimierung der Build-Dauer eines Web Application Bundler durch Anpassung der Konfiguration und dessen Auswirkung auf den Entwicklungsprozess
 
     author: Max Mustermann
@@ -20,9 +20,9 @@ There is a plethora of options that change the way the build system operates. A 
 
 ## Template specific fields
 
-### TFLNummer
+### header-title
 
-This is the counter which TFL this is. Mainly affects the title page.
+Title that is used on the front page and in the top left of each header.
 
 ### Zenturie
 

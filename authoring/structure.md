@@ -35,3 +35,9 @@ The `docs` directory contains the files of this documentation. It will be remove
 All the important files rest in the `src` directory. This is where the magic happens. It contains all your [text files](authoring/markdown.md) (`*.md`), the [bibliography](authoring/bibliography.md) (`bibliography.yaml`) and [glossary entries](authoring/glossary.md) (`glossary.tex`). The first of the text files additionally contains your [project metadata](authoring/metadata.md).
 
 You may add any additional files and directories containing images, referenced files and the like to this folder in any way you like. Note that when building all `.md` files in this directory are concatenated in lexicographical order and then parsed. This allows you to split your document into as many files as you like and is the reason we prefixed all the example files with numbers to preserve the correct order. Note though that currently `*.md` files in subfolders are being ignored (subject to change)!
+
+<!--
+Source files that get included in the final document are contained in the `src/` directory. Prior to building all Markdown files get concatenated in alphabetical order. By using a numerical prefix (as shown below) you can determine the order of your content in the final document.
+
+Literature sources are listed in `bibliography.yaml` and can be referenced as described in the second section. Glossary entries are defined in `glossary.tex` and their use is described in the FAQ.
+-->

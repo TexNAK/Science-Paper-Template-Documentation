@@ -5,6 +5,8 @@ pull-request on [template](https://github.com/TexNAK/Science-Paper-Template).
 
 ## Project Structure for development
 
+Everything template related is placed in hidden subfolders excluding the build scripts. Generally there should be no need to touch these files. In case you do, please consider creating a pull request on the [template](https://github.com/TexNAK/Science-Paper-Template) if the changes could potentially be of use for others.
+
 ```javascript
 .
 ├── README.md
@@ -39,3 +41,9 @@ pull-request on [template](https://github.com/TexNAK/Science-Paper-Template).
     ├── Dockerfile          // Docker image
     └── docker-compose.yml  // Container instantiation config
 ```
+
+<!-- 
+TODO explain the following:
+- Template change pull
+- Push template changes
+-->
